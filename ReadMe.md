@@ -3,7 +3,9 @@ Java application to log all the events of FreeSwitch server socket.
 
 Pre-requisites:
 1) Since it's a JAVA application, JRE is needed to execute the code.
+
 2) FreeSwitch should be installed as it is meant to log events of FreeSwitch Server socket.
+
 3) Any client software which can communicate to FreeSwitch server to verify if all kinds of events are logged.
 
 
@@ -21,5 +23,7 @@ The default settings allow socket connections only from the local host. To allow
 Running the Java Logger:
 1)	This application was coded in Windows Eclipse IDE. I have exported the complete project in a zip file FreeSwitchJavaEventLogger.zip. 
 To run, import this zip file in eclipse IDE (present on any platform) and then try to compile and run file called JavaClient.java
+
 2)	Once application is up and running, it will try and connect to FreeSwitch server on default host localhost:8021.  If the FreeSwitch server is up and running, the application will start logging all the event and related information in a file called EventLogs.txt
-3)	The application will continue to log events till QUIT is sent on console.
+
+3)	The application will continue to log events till QUIT is recieved on console.
