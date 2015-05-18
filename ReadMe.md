@@ -34,3 +34,7 @@ To run, import this zip file in eclipse IDE (present on any platform) and then t
 2)	Once application is up and running, it will try and connect to FreeSwitch server on default host localhost:8021.  If the FreeSwitch server is up and running, the application will start logging all the events and related information in a file called EventLogs.txt
 
 3)	The application will continue to log events till QUIT is recieved on console.
+
+Please let me know if you are finding any issues in running this Java application. I will happily entertain all the queries.
+
+mail id: sunil.chhablani@gmail.com
